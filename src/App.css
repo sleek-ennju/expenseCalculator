@@ -79,6 +79,9 @@ input:focus{
   display: flex;
   justify-content: space-between;
 }
+.notification + .notification{
+  margin-top: .5rem;
+}
 .notification > p{
   font-size: 1rem;
   color: white;
